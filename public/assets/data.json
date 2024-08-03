@@ -275,8 +275,8 @@
       "sales": 5000,
       "income": 5500,
       "investment": 1400,
-      "expenses": 1700,
-      "paychecks": 1150,
+      "expenses": 5000,
+      "paychecks": 3150,
       "taxes": 420
     },
     {
@@ -285,7 +285,7 @@
       "sales": 4000,
       "income": 4500,
       "investment": 1000,
-      "expenses": 1500,
+      "expenses": 6000,
       "paychecks": 1000,
       "taxes": 400
     },
@@ -295,7 +295,7 @@
       "sales": 6000,
       "income": 6500,
       "investment": 1600,
-      "expenses": 2000,
+      "expenses": 6000,
       "paychecks": 1200,
       "taxes": 460
     },

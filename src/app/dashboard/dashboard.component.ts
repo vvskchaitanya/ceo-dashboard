@@ -49,7 +49,10 @@ export class DashboardComponent implements OnInit{
         (sum, month) => sum + month.sales,
         0
       );
-      this.currentProfit = this.currentSales * 0.2; // Assume 20% profit margin
+      this.currentProfit = currentData.monthlySales.reduce(
+        (sum, month) => sum + month.profit,
+        0
+      );
       this.updateChart(); // Update the chart with new data
     }
   }

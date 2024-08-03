@@ -33,7 +33,7 @@ export class DataService {
     var sales:SalesData = { year: year, quarter: quarter, monthlySales:[]};
     this.data.forEach(d=>{
       if(""+d.year==year && this.quarters[quarter].includes(d.month)){
-        sales.monthlySales.push({month:d.month,sales:d.sales,profit:d.sales-d.expenses});
+        sales.monthlySales.push({month:d.month,sales:d.sales,profit:d.sales-d.expenses-d.investment-d.paychecks-d.taxes});
       }
     })
 
