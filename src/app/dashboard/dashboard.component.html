@@ -1,0 +1,52 @@
+<div class="container dashboard-container">
+    <h2 class="mb-4">CEO Dashboard</h2>
+
+    <div class="form-group mb-4">
+        <div class="row">
+            <div class="col-6 p-2">
+                <label class="d-inline-block m-2" for="quarterSelect"><b>Select Year:</b></label>
+                <select id="quarterSelect" class="form-select d-inline w-50" [(ngModel)]="selectedYear" (change)="updateMetrics()">
+                    <option *ngFor="let y of years" [value]="y">
+                        {{ y }}
+                    </option>
+                </select>
+            </div>
+            <div class="col-6 p-2">
+                <label class="d-inline-block m-2" for="quarterSelect"><b>Select Quarter:</b></label>
+                <select id="quarterSelect" class="form-select d-inline w-50" [(ngModel)]="selectedQuarter" (change)="updateMetrics()">
+                    <option *ngFor="let q of quarters" [value]="q">
+                        {{ q }}
+                    </option>
+                </select>
+            </div>
+            
+    </div>
+
+    <div class="row">
+        <div class="col-8">
+            <figure id="bar-chart"></figure>
+        </div>
+        <div class="col-4">
+            <div class="metrics">
+                <div class="metric-card">
+                    <h4> Total Sales</h4>
+                    <p>${{ currentSales  }}</p>
+                </div>
+                <div class="metric-card">
+                    <h4>Profit/Loss</h4>
+                    <p [ngClass]="{
+                    'text-success': currentProfit >= 0,
+                    'text-danger': currentProfit < 0
+                  }">
+                        ${{ currentProfit  }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    
+</div>
