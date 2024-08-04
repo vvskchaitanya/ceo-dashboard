@@ -44,7 +44,6 @@ export class DashboardComponent implements OnInit{
     this.salesData = this.dataService.getSalesData(this.selectedYear,this.selectedQuarter);
     const currentData = this.salesData;
     if (currentData) {
-      // Sum up the sales and calculate profit (dummy calculation here)
       this.currentSales = currentData.monthlySales.reduce(
         (sum, month) => sum + month.sales,
         0
@@ -53,7 +52,7 @@ export class DashboardComponent implements OnInit{
         (sum, month) => sum + month.profit,
         0
       );
-      this.updateChart(); // Update the chart with new data
+      this.updateChart(); 
     }
   }
 
