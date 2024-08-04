@@ -6,15 +6,39 @@ The CEO Dashboard is a dynamic web application built with Angular that provides 
 
 ## Features
 
-- **Quarterly Data Filtering**: Select a quarter to view sales and profit data specific to Q1, Q2, Q3, or Q4.
-- **Responsive Design**: Uses Bootstrap 5 to ensure a responsive and visually appealing layout.
-- **Interactive Charts**: Utilizes `ngx-charts` to display data in an interactive format.
-- **Data Fetching**: Loads data from a JSON file using Angular's HttpClient.
+- Interactive graphs for sales and profits
+- Year and quarter selection for data filtering
+- Real-time updates with a dynamic data source
+- Responsive design using Bootstrap 5
+- User-friendly navigation and intuitive UI
 
 ## Technologies Used
 
-- **Angular**: Framework for building client-side applications.
-- **Bootstrap 5**: Styling and layout framework for responsive design.
-- **Ngx-Charts**: Charting library for Angular applications.
-- **RxJS**: Reactive programming library for asynchronous data handling.
-- **TypeScript**: Typed superset of JavaScript for application development.
+- **Angular**: Frontend framework for building the application
+- **D3.js**: Library for creating dynamic and interactive data visualizations
+- **Bootstrap 5**: Framework for responsive and mobile-first designs
+- **JSON**: Data format for storing and retrieving sales and financial data
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/ceo-dashboard.git
+   ```
+2. **Navigate to the project directory**
+   ```bash
+   cd ceo-dashboard
+   ```
+3. **Install the dependencies**
+   ```bash
+   npm install
+   ```
+4. **Run the application**
+   ```bash
+   npm start
+   ```
+5. **Launch app**
+   Navigate to http://localhost:4200 to view the application.
+
+## Direct Access Link
+- https://vvskchaitanya.github.io/ceo-dashboard/
