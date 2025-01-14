@@ -12,3 +12,7 @@ svg .bar:hover {
     cursor: pointer;
     stroke: goldenrod;
 }  
+
+svg text{
+    font-size: 15px;
+}
