@@ -28,10 +28,6 @@ h2 {
     transition: transform 0.2s ease;
 }
 
-.metric-card:hover {
-    transform: translateY(-5px);
-}
-
 .metric-card h4 {
     color: #007bff;
     margin-bottom: 10px;

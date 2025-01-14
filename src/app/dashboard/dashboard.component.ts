@@ -17,10 +17,10 @@ export class DashboardComponent implements OnInit{
   salesData?: SalesData;
 
   quarters=["Q1","Q2","Q3","Q4"];
-  years = ["2021","2022","2023"];
+  years = ["2022","2023","2024"];
 
-  selectedYear: string = "2023";
-  selectedQuarter: string = 'Q1'; // Default selected quarter
+  selectedYear: string = "2024";
+  selectedQuarter: string = 'Q4'; // Default selected quarter
   currentSales: number = 0;
   currentProfit: number = 0;
   private svg: any;

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+svg .bar {
+    fill: steelblue;
+    stroke: steelblue;
+    stroke-width: 3;
+    transition: stroke 0.3s ease, fill 0.3s ease;
+}
+  
+
+svg .bar:hover {
+    cursor: pointer;
+    stroke: goldenrod;
+}  
