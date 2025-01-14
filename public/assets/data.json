@@ -1,125 +1,5 @@
 [
   {
-    "year": 2021,
-    "month": "January",
-    "sales": 6500,
-    "income": 7000,
-    "investment": 1500,
-    "expenses": 2000,
-    "paychecks": 1200,
-    "taxes": 500
-  },
-  {
-    "year": 2021,
-    "month": "February",
-    "sales": 5500,
-    "income": 6000,
-    "investment": 1000,
-    "expenses": 1800,
-    "paychecks": 1100,
-    "taxes": 450
-  },
-  {
-    "year": 2021,
-    "month": "March",
-    "sales": 6000,
-    "income": 6500,
-    "investment": 1200,
-    "expenses": 1900,
-    "paychecks": 1300,
-    "taxes": 470
-  },
-  {
-    "year": 2021,
-    "month": "April",
-    "sales": 5000,
-    "income": 5500,
-    "investment": 1400,
-    "expenses": 1700,
-    "paychecks": 1150,
-    "taxes": 420
-  },
-  {
-    "year": 2021,
-    "month": "May",
-    "sales": 4200,
-    "income": 4700,
-    "investment": 1000,
-    "expenses": 1500,
-    "paychecks": 1000,
-    "taxes": 400
-  },
-  {
-    "year": 2021,
-    "month": "June",
-    "sales": 5800,
-    "income": 6200,
-    "investment": 1600,
-    "expenses": 2000,
-    "paychecks": 1200,
-    "taxes": 450
-  },
-  {
-    "year": 2021,
-    "month": "July",
-    "sales": 7500,
-    "income": 8000,
-    "investment": 1800,
-    "expenses": 2100,
-    "paychecks": 1400,
-    "taxes": 500
-  },
-  {
-    "year": 2021,
-    "month": "August",
-    "sales": 8500,
-    "income": 9000,
-    "investment": 2000,
-    "expenses": 2200,
-    "paychecks": 1500,
-    "taxes": 550
-  },
-  {
-    "year": 2021,
-    "month": "September",
-    "sales": 6800,
-    "income": 7200,
-    "investment": 1700,
-    "expenses": 1900,
-    "paychecks": 1300,
-    "taxes": 470
-  },
-  {
-    "year": 2021,
-    "month": "October",
-    "sales": 6200,
-    "income": 6600,
-    "investment": 1500,
-    "expenses": 1800,
-    "paychecks": 1200,
-    "taxes": 460
-  },
-  {
-    "year": 2021,
-    "month": "November",
-    "sales": 7100,
-    "income": 7500,
-    "investment": 1600,
-    "expenses": 1900,
-    "paychecks": 1300,
-    "taxes": 500
-  },
-  {
-    "year": 2021,
-    "month": "December",
-    "sales": 5400,
-    "income": 5800,
-    "investment": 1400,
-    "expenses": 1700,
-    "paychecks": 1100,
-    "taxes": 420
-  },
-  {
     "year": 2022,
     "month": "January",
     "sales": 10000,
@@ -351,6 +231,126 @@
   },
   {
     "year": 2023,
+    "month": "December",
+    "sales": 5400,
+    "income": 5800,
+    "investment": 1400,
+    "expenses": 1700,
+    "paychecks": 1100,
+    "taxes": 420
+  },
+  {
+    "year": 2024,
+    "month": "January",
+    "sales": 6500,
+    "income": 7000,
+    "investment": 1500,
+    "expenses": 2000,
+    "paychecks": 1200,
+    "taxes": 500
+  },
+  {
+    "year": 2024,
+    "month": "February",
+    "sales": 5500,
+    "income": 6000,
+    "investment": 1000,
+    "expenses": 1800,
+    "paychecks": 1100,
+    "taxes": 450
+  },
+  {
+    "year": 2024,
+    "month": "March",
+    "sales": 6000,
+    "income": 6500,
+    "investment": 1200,
+    "expenses": 1900,
+    "paychecks": 1300,
+    "taxes": 470
+  },
+  {
+    "year": 2024,
+    "month": "April",
+    "sales": 5000,
+    "income": 5500,
+    "investment": 1400,
+    "expenses": 1700,
+    "paychecks": 1150,
+    "taxes": 420
+  },
+  {
+    "year": 2024,
+    "month": "May",
+    "sales": 4200,
+    "income": 4700,
+    "investment": 1000,
+    "expenses": 1500,
+    "paychecks": 1000,
+    "taxes": 400
+  },
+  {
+    "year": 2024,
+    "month": "June",
+    "sales": 5800,
+    "income": 6200,
+    "investment": 1600,
+    "expenses": 2000,
+    "paychecks": 1200,
+    "taxes": 450
+  },
+  {
+    "year": 2024,
+    "month": "July",
+    "sales": 7500,
+    "income": 8000,
+    "investment": 1800,
+    "expenses": 2100,
+    "paychecks": 1400,
+    "taxes": 500
+  },
+  {
+    "year": 2024,
+    "month": "August",
+    "sales": 8500,
+    "income": 9000,
+    "investment": 2000,
+    "expenses": 2200,
+    "paychecks": 1500,
+    "taxes": 550
+  },
+  {
+    "year": 2024,
+    "month": "September",
+    "sales": 6800,
+    "income": 7200,
+    "investment": 1700,
+    "expenses": 1900,
+    "paychecks": 1300,
+    "taxes": 470
+  },
+  {
+    "year": 2024,
+    "month": "October",
+    "sales": 6200,
+    "income": 6600,
+    "investment": 1500,
+    "expenses": 1800,
+    "paychecks": 1200,
+    "taxes": 460
+  },
+  {
+    "year": 2024,
+    "month": "November",
+    "sales": 7100,
+    "income": 7500,
+    "investment": 1600,
+    "expenses": 1900,
+    "paychecks": 1300,
+    "taxes": 500
+  },
+  {
+    "year": 2024,
     "month": "December",
     "sales": 5400,
     "income": 5800,
